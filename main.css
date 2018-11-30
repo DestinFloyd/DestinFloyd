@@ -1,22 +1,23 @@
-.body{
-    margin: auto;
-}
+
 .container1{
     border: solid red;
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
 
+    
 }
 .containerCover1{
 border: solid blue;
-height: 100vw;
+height: 100vh;
 width: 100vw;
 position: absolute;
+
 
 }
 
 .firstName{
     border: solid red;
+    margin-right: 10%;
     margin-top: 20vh;
     font-size: 8em;
     display: flex;
@@ -27,6 +28,7 @@ position: absolute;
 }
 .lastName{
     border: solid pink;
+    margin-right: 10%;
     font-size: 8em;
     display: flex;
     justify-content: flex-end;
@@ -35,7 +37,7 @@ position: absolute;
 }
 .containerCover2{
     border: solid green;
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
     position: absolute;
 
@@ -44,25 +46,52 @@ position: absolute;
 }
 .about{
     border: solid chartreuse;
-    height: 20vh;
-    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+
 
 }
 .projects{
     border: solid chartreuse;
-    height: 40vh;
-    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    margin-left: 25%;
+  
 
 }
 .random{
     border: solid chartreuse;
-    height: 10vh;
-    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 25%;
+
 
 }
 .contact{
     border: solid red;
-    height: 25vh;
-    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 25%;
+
 
 }
+
+
