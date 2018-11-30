@@ -1,0 +1,68 @@
+.body{
+    margin: auto;
+}
+.container1{
+    border: solid red;
+    height: 100vw;
+    width: 100vw;
+
+}
+.containerCover1{
+border: solid blue;
+height: 100vw;
+width: 100vw;
+position: absolute;
+
+}
+
+.firstName{
+    border: solid red;
+    margin-top: 20vh;
+    font-size: 8em;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+.lastName{
+    border: solid pink;
+    font-size: 8em;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.containerCover2{
+    border: solid green;
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+
+
+
+}
+.about{
+    border: solid chartreuse;
+    height: 20vh;
+    width: 20vw;
+
+}
+.projects{
+    border: solid chartreuse;
+    height: 40vh;
+    width: 40vw;
+
+}
+.random{
+    border: solid chartreuse;
+    height: 10vh;
+    width: 10vw;
+
+}
+.contact{
+    border: solid red;
+    height: 25vh;
+    width: 25vw;
+
+}
