@@ -1,13 +1,21 @@
-
+body{
+    margin: 0;
+    position: absolute;
+   
+}
 .container1{
-    border: solid red;
+  border: solid red;
     height: 100vh;
     width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
+    position: absolute;
+    overflow: hidden;
 
     
 }
 .containerCover1{
-border: solid blue;
+border: solid pink;
 height: 100vh;
 width: 100vw;
 position: absolute;
@@ -16,7 +24,7 @@ position: absolute;
 }
 
 .firstName{
-    border: solid red;
+  
     margin-right: 10%;
     margin-top: 20vh;
     font-size: 8em;
@@ -27,7 +35,7 @@ position: absolute;
 
 }
 .lastName{
-    border: solid pink;
+
     margin-right: 10%;
     font-size: 8em;
     display: flex;
@@ -40,9 +48,6 @@ position: absolute;
     height: 100vh;
     width: 100vw;
     position: absolute;
-
-
-
 }
 .about{
     border: solid chartreuse;
@@ -78,6 +83,8 @@ position: absolute;
     width: 75px;
     border-radius: 50%;
     margin-left: 25%;
+    margin-top: -3%;
+    z-index: 2;
 
 
 }
@@ -89,8 +96,10 @@ position: absolute;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    margin-left: 25%;
-
+    margin-left: 40%;
+    position: relative;
+    margin-top: -7%;
+    z-index: 2
 
 }
 
