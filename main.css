@@ -51,6 +51,7 @@ body{
 
  
 }
+
 .about{
    
     display: flex;
@@ -67,7 +68,7 @@ body{
     background-image: linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
 
 }
-.projects{
+#projects{
     
     display: flex;
     align-items: center;
@@ -124,12 +125,13 @@ body{
 .contact:hover{
     animation: spinIt 2s ease-in;
 }
-.projects:hover{
+#projects:hover{
     animation: spinIt 2s ease-in;
 }
 .random:hover{
     animation: spinIt 2s ease-in;
 }
+
 
 @keyframes spinIt{
 0%{ 
