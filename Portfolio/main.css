@@ -225,8 +225,7 @@ margin: 0 auto;
     align-items: center;
     text-align: center;
     width: 100vw;
-    /* not delaring a height make height fit to content */
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     font-size: 2em;
     
 }
@@ -234,93 +233,104 @@ margin: 0 auto;
 .imageOP{
 
     height: 50%;
-    width: 50%;
+    width: 600px;
     min-height: 100px;
     min-width: 100px;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    max-height: 50%;
     
 }
 .imageOfProject{
    
     position: relative;
-    width: 50%;
-    padding-top: 50%;
+    width: 300px;
+    height: 300px;
  
 }
 .projectInfo{
-    
+    display:flex;
+    flex-direction: column;
     position: relative;
     overflow: scroll; 
     height: 20%;
     width: 50%;
     text-align: center;
-    
-    padding-top: 50%;
-    
+ 
 }
 .projectText{
-    position:  absolute;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    width: 300px;
     text-align: center;
     font-size: 20px;
 }
 .para{
     width: 100vw;
     background-position: fixed;
-    background-image: url("/images/josh-rose-506979-unsplash\ \(1\).jpg");
-    /* Thanks to and Photo by Josh Rose on Unsplash */
+    background-image: url("/images/stripes-by-daryan-shamkhali-upsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
      
 
 }
 .parainner{
-    padding: 300px;
+    padding: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
-.page4projectLinks{
+.projectLink{
     text-decoration: none;
     color: black;
 }
-.page4projectLinks:hover{
+.projectLink:hover{
     text-shadow: 2px 2px 2px gray;
 }
 
 #imageOfProject1{
-    /* image courtesy of Freeart.com - art by csp_Nicemonkey */
-    background-image: url("/images/underConstruction.jpg");
+    background-image: url('/images/connect4.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
 #imageOfProject2{
-    /* image courtesy of iconarchive.com - art by Google */
-    background-image: url("/images/underConstruction3.png");
+    background-image: url("/images/pickYourChecklist.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 #imageOfProject3{
-    /* image courtesy of iconfinder.com - art by Turan Kent */
-    background-image: url("/images/underConstruction2.png ");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-#imageOfProject4{
-    /* gif thats to giphy.com  */
-    background-image: url("/images/birdWaving.gif");
+
+    background-image: url("/images/FlipCards.png");
     background-repeat: no-repeat;
     background-size: contain;
 
+
 }
-#helloText{
-    align-items: flex-start;
+#imageOfProject4{
+    background-image: url("/images/primaryFlower.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+
+}
+#imageOfProject5{
+    background-image: url("/images/heartFlower.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+
+}
+
+.holderOf3{
+    width: 301px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
