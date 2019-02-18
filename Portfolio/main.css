@@ -43,11 +43,35 @@ body{
 
 
 }
+.firstName:hover{
+    animation: rotate-right 1s ease-in-out;
+}
+.firstName:hover +
+.lastName{
+    animation: rotate-right 1s ease-in-out;
+
+}
+
+@keyframes rotate-right {
+    0% {
+
+              transform: rotate(0);
+      
+              transform-origin: right;
+    }
+    100% {
+      
+              transform: rotate(360deg);
+      
+              transform-origin: right;
+    }
+  }
+  
 .containerCover2{
  
     height: 100vh;
     width: 100vw;
-    position: absolute;
+    /* position: absolute; */
 
  
 }
@@ -120,6 +144,7 @@ body{
 
 }
 
+  
 #about:hover{
     animation: spinIt 2s ease-in;
     font-size: large;
@@ -156,57 +181,6 @@ body{
 /* ===========  contacts 3  ================= */
 /* ========================================== */
 /* ========================================== */
-
-.container3{
-height: 100vh;
-width: 100vw;
-display: flex;
-flex-direction: row;
-overflow: hidden;
-margin: 0 auto;
-
-}
-
-.main3{
-    
-    height: 100vh;
-    width: 40vw;
-    background: linear-gradient( to top left, lightgray, gray, black, lightgray, gray, black, lightgray, gray, black, lightgray, gray, black);
-    font-size: 9vw;
-    word-break: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-attachment: fixed;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-weight: bolder;
-    color: white;
-   
-}
-
-.contactsBox{
-    height: 100vh;
-    width: 40vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-   
-
-}
-.contactsCover{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-}
-.contactsOn3:hover{
-   transform: scale(2);
-
-}
-
 
 /* ========================================== */
 /* ========================================== */
@@ -272,7 +246,7 @@ margin: 0 auto;
 .para{
     width: 100vw;
     background-position: fixed;
-    background-image: url("/images/stripes-by-daryan-shamkhali-upsplash.jpg");
+    background-image: url("images/stripes-by-daryan-shamkhali-upsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -293,25 +267,25 @@ margin: 0 auto;
 }
 
 #imageOfProject1{
-    background-image: url('/images/connect4.png');
+    background-image: url('images/connect4.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
 #imageOfProject2{
-    background-image: url("/images/pickYourChecklist.png");
+    background-image: url("images/pickYourChecklist.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 #imageOfProject3{
 
-    background-image: url("/images/FlipCards.png");
+    background-image: url("images/FlipCards.png");
     background-repeat: no-repeat;
     background-size: contain;
 
 
 }
 #imageOfProject4{
-    background-image: url("/images/primaryFlower.jpg");
+    background-image: url("images/primaryFlower.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 150px;
@@ -319,7 +293,7 @@ margin: 0 auto;
 
 }
 #imageOfProject5{
-    background-image: url("/images/heartFlower.jpg");
+    background-image: url("images/heartFlower.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 150px;
