@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
     <title>Portfolio Home</title>
 </head>
+
 <body>
-    
-<div class="container1">
-<div class="containerCover1">
+
+    <div class="container1">
+        
+        <div class="containerCover1">
+            <div class="firstName">
+                Destin
+            </div>
+            <div class="lastName">
+                Floyd
+            </div>
+
+        </div><!-- end of container cover 1 -->
+        <div class="containerCover2">
+                <div class="aboutHolder">
+            <div id="about">
+                <div onclick="openAbout()" class="pageLinks" id="aboutLink">About</div>
+            </div>
+            <div id="aboutHideaway">
+                <div onclick="closeAbout()"> X</div>
+                <p>Hello, Im Destin, a firefighter turned programmer with a passion for helping and yadddashhhh </p>
+
+            </div>
+        </div>
+
+            <div id="projects">
+                <a href="pages/projects4.html" class="pageLinks">Projects</a>
+            </div>
+
+            <div class="contactHolder">
+                <div id="contact">
+
+                    <div onclick="openInfo()" class="pageLinks" id="contactLink">Contact Me</div>
+                </div>
+                <div id="contactHideaway">
+                    <div onclick="closeInfo()"> X</div>
+                    <p>Hello, thanks for viewing my portfolio. Contact Me on <a id='linkedinLink' href="https://www.linkedin.com/in/destin-floyd-808463176/ ">
+                            Linkedin</a> or Destin.B.Floyd@gmail.com</p>
+
+                </div>
+
+            </div>
 
 
-<div class="firstName">
-Destin
-</div>
-<div class="lastName">
-Floyd
-</div>
 
-</div><!-- end of container cover 1 -->
-<div class="containerCover2">
- 
-<div id="about">
-    <a href="pages/about2.html" class="page1Links">About</a>
-</div>
-
-<div id="projects">
-<a href="pages/projects4.html" class="page1Links">Projects</a>
-</div>
-
-<!-- <div id="random">
-     will be a JS function to random project one day 
-</div> -->
-
-<div id="contact">
-    <a href="pages/contact3.html" class="page1Links">Contact Me</a>
-</div>
-
-
-</div><!-- end of container cover 2 -->
-</div><!-- end of container -->
-<script src="app.js"></script>
+        </div><!-- end of container cover 2 -->
+    </div><!-- end of container -->
+    <script src="app.js"></script>
 </body>
+
 </html>

@@ -1,47 +1,38 @@
 body{
     margin: 0;
     position: absolute;
-   
+    
 }
 .container1{
- 
     height: 100vh;
     width: 100vw;
     max-height: 100vh;
     max-width: 100vw;
     position: absolute;
     overflow: hidden;
-
-    
+    z-index: -2;
+    background-color: black;
 }
 .containerCover1{
-
     height: 100vh;
     width: 100vw;
     position: absolute;
-
-
 }
 
 .firstName{
-  
     margin-right: 10%;
     margin-top: 20vh;
     font-size: 8em;
     display: flex;
     justify-content: flex-end;
-
-
-
+    color: white;
 }
 .lastName{
-
     margin-right: 10%;
     font-size: 8em;
     display: flex;
     justify-content: flex-end;
-
-
+    color: white;
 }
 .firstName:hover{
     animation: rotate-right 1s ease-in-out;
@@ -49,7 +40,6 @@ body{
 .firstName:hover +
 .lastName{
     animation: rotate-right 1s ease-in-out;
-
 }
 
 @keyframes rotate-right {
@@ -66,15 +56,6 @@ body{
               transform-origin: right;
     }
   }
-  
-.containerCover2{
- 
-    height: 100vh;
-    width: 100vw;
-    /* position: absolute; */
-
- 
-}
 
 #about{
    
@@ -106,28 +87,8 @@ body{
     box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5); 
     background-image: linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
 }
-#random{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    margin-left: 25%;
-    margin-top: -3%;
-    position: relative;
-    z-index: 2;
-    
-    background-color: white;
-    box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5); 
-    background-image: linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
-    background-image: url("/images/chaos_end.png");
-    background-position: center;
-    background-size: contain;
-}
+
 #contact{
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,9 +102,29 @@ body{
     background-color: white;
     box-shadow: inset -25px -25px 40px rgba(0, 0, 0, 0.5); 
     background-image: linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+    
+}
+.contactHolder{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.aboutHolder{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+.contactShowing{
+    color: rgb(0, 0, 0, 1);
+    height: 250px;
+    width: 250px;
+}
+.contactHiding{
+    color: black;
+    height: 0px;
 
 }
-
   
 #about:hover{
     animation: spinIt 2s ease-in;
@@ -157,10 +138,6 @@ body{
     animation: spinIt 2s ease-in;
     font-size: large;
 }
-#random:hover{
-    animation: spinIt 2s ease-in;
-    font-size: large;
-}
 
 
 @keyframes spinIt{
@@ -169,18 +146,32 @@ body{
     box-shadow: inset  0 0 40px black;
 }
 }
-.page1Links{
+.pageLinks{
     text-decoration: none;
     color: black;
     font-size: 1.2em;
 
 }
-
-/* ========================================== */
-/* ========================================== */
-/* ===========  contacts 3  ================= */
-/* ========================================== */
-/* ========================================== */
+#contactLink{
+    position: absolute;
+}
+#aboutLink{
+    position: absolute;
+}
+#contactHideaway{
+    position: relative;
+    z-index: inherit;
+   color: black;
+}
+#linkedinLink{
+    color: black;
+}
+#aboutHideaway{
+    position: relative;
+    z-index: inherit;
+    color: black;
+    padding-top: 50px;
+}
 
 /* ========================================== */
 /* ========================================== */
@@ -191,6 +182,7 @@ body{
 .continer4{
     height: 150vh;
     width: 100vw;
+    
 }
 .project{
     display: flex;
@@ -201,11 +193,11 @@ body{
     width: 100vw;
     padding-bottom: 2%;
     font-size: 2em;
-    
+    background-color: black;
+    color: white;
 }
 
 .imageOP{
-
     height: 50%;
     width: 600px;
     min-height: 100px;
@@ -217,7 +209,6 @@ body{
     
 }
 .imageOfProject{
-   
     position: relative;
     width: 300px;
     height: 300px;
@@ -234,7 +225,7 @@ body{
  
 }
 .projectText{
-
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -246,7 +237,7 @@ body{
 .para{
     width: 100vw;
     background-position: fixed;
-    background-image: url("images/stripes-by-daryan-shamkhali-upsplash.jpg");
+    background-image: url("images/josh-rose-506979-unsplash\ \(1\).jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -260,7 +251,7 @@ body{
 }
 .projectLink{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .projectLink:hover{
     text-shadow: 2px 2px 2px gray;
@@ -307,4 +298,10 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+#imageOfProject7{
+    background-image: url("images/dndOpen.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
