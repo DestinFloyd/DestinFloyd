@@ -201,13 +201,13 @@ body{
 
 .imageOP{
     height: 50%;
-    width: 800px;
+    width: 900px;
     min-height: 100px;
     min-width: 100px;
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .imageOfProject{
