@@ -11,7 +11,9 @@ body{
     position: absolute;
     overflow: hidden;
     z-index: -2;
-    background-color: black;
+    background-image: url("images/nathan-anderson-stars-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .containerCover1{
     height: 100vh;
@@ -193,13 +195,13 @@ body{
     width: 100vw;
     padding-bottom: 2%;
     font-size: 2em;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .imageOP{
     height: 50%;
-    width: 600px;
+    width: 800px;
     min-height: 100px;
     min-width: 100px;
     display: flex;
@@ -210,7 +212,7 @@ body{
 }
 .imageOfProject{
     position: relative;
-    width: 300px;
+    width: 400px;
     height: 300px;
  
 }
@@ -225,19 +227,20 @@ body{
  
 }
 .projectText{
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 400px;
+    height: 300px;
     text-align: center;
     font-size: 20px;
 }
 .para{
     width: 100vw;
     background-position: fixed;
-    background-image: url("images/josh-rose-506979-unsplash\ \(1\).jpg");
+    background-image: url("images/bill-jelen-blueFalcon-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -251,7 +254,7 @@ body{
 }
 .projectLink{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .projectLink:hover{
     text-shadow: 2px 2px 2px gray;
