@@ -1,3 +1,6 @@
+function scrollDown(){
+  window.scrollBy(0, 300);
+}
 function closeInfo(){
   document.getElementById("contactHideaway").style.visibility = "hidden"
   document.getElementById("linkedinLink").style.visibility = "hidden"
